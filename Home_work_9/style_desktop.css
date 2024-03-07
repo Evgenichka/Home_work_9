@@ -244,36 +244,43 @@ button {
     align-items: center;
 
     background: rgb(34, 34, 36);
-    max-height: 341px;
-    max-width: 1600;
-    margin-top: 5%;
+    height: 300px;
+    width: 1600;
+    margin-top: 100px;
 }
 
 .service {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
     
-    margin: 3%;
+    padding: 9%;
     gap: 20px;
 }
 
 .service_header, .service_text {
     color: rgb(251, 251, 251);
     font-weight: 400;
+
 }
 
 .service_header {
+    max-height: 24px;
+    width: 180px;
     font-size: 19.96px;
-    line-height: 23px;
-    text-align: left;
+    line-height: 15px;
+    display: flex;
+    text-align:center;
+    
+    
 }
 
 .service_text {
     font-size: 13.97px;
     line-height: 16px;
     text-align: center;
+    height: 34px;
+    width: 360px;
+
 }
 
 /*endregion*/
@@ -382,6 +389,8 @@ button {
 .icon-img3 {
  width: 32px;
  height: 32px;
+
+    align-items: center;
 }
 
 .service
@@ -389,7 +398,44 @@ button {
 .sales
 .qa{
     display: flex;
+
     
 
 
+}
+
+.delivery{
+    height: 140px;
+    width: 134px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+
+    padding-left: 100px;
+    padding-right: 200px;
+    
+}
+
+.sales{
+    height: 140px;
+    width: 134px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.qa{
+    height: 140px;
+    width: 134px;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-left: 200px;
+    padding-right: 100px;
 }
